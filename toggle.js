@@ -19,7 +19,7 @@ $('#show-hide-link').click(function(){
     }
 });
 
-/* Example, displaying another stream : just clome the above functions (same in HTML) */
+/* Example, displaying another stream : just clone the above functions (same in HTML) */
 function showVideo2() {
    $('#video2').append('<iframe id="cast2" src="http://www.twitch.tv/crunk_muffin/embed" frameborder="0" scrolling="no" height="378" width="620"></iframe>');
 }
