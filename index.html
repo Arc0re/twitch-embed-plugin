@@ -2,16 +2,22 @@
 <html>
 <head>
 	<title>Stuff</title>
-	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-	<script type="text/javascript" src="toggle.js"></script>
 </head>
 <body>
 	<div>
-        <p><a href="#" id="show-hide-link" onclick="javascript:showHide();return(false);">Show Video</a></p>
-
-        <div id="video-wrapper">
-            <div id="video"><!-- The stream player will be here --> </div>
-        </div>
+        <p><a href="#" id="show-hide-link">Show Video</a></p>
+        <div id="video"><!-- The stream player will be here --></div>
 	</div>
+
+	<!-- Example : to display more than one cast, clone the above divs and change the ids-->
+	<div>
+        <p><a href="#" id="show-hide-link2">Show Video</a></p>
+        <div id="video2"><!-- The stream player will be here --></div>
+	</div>
+
+	<!-- DONT FORGET TO INCLUDE BOTH JQUERY AND THE JS FILE CONTAINING THE PLUGIN -->
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script> <!-- Carefull though, JQuery is probably already included-->
+	<script type="text/javascript" src="toggle.js"></script>
+
 </body>
 </html>
