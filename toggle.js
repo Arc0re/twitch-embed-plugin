@@ -25,7 +25,7 @@ function showVideo2() {
 }
 
 function hideVideo2() {
-    $('#cast2').remove(); // Dont forget to change cast1 for the id you chose in showVideo()
+    $('#cast2').remove(); // Dont forget to change cast1 for the id you chose in showVideo2()
 }
 
 $('#show-hide-link2').click(function(){
